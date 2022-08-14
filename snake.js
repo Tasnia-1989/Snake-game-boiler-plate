@@ -50,6 +50,7 @@ function init() {
     }
     if(killedByHittingItself) {
         // write the  code here
+
     }
     if(snakeBodyDisappear) {
         // write the  code here
@@ -246,4 +247,7 @@ function gameCycle() {
         setTimeout("gameCycle()", DELAY);
     }
 }
-
+function restart ()
+{
+    window.location.reload();
+}
